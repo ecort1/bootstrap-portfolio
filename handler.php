@@ -20,7 +20,7 @@ $validator->field('message')->maxLength(6000);
 
 
 
-$pp->recaptcha_secret_key = '6Ld6iZkUAAAAAMndnPlneQ71tMYEWZTcHH5qwUEU';
+$pp->recaptcha_secret_key = '';
 $pp->sendEmailTo(''); // ← Your email here
 
 echo $pp->process($_POST);
